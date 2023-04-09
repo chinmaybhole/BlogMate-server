@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'BlogMate-server'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D412A6914F9B4D15AEBCF6F34F3D1A98 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1F824E7826974A1ABBDCD02DB123670A }}
           package: .
