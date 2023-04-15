@@ -24,7 +24,7 @@ connection.once("open", () => {
 });
 
 app.use("/", textbotRouter);
-app.get("/", (req, res) => res.send("Server is running..."));
+app.get("/", (req, res) => res.status(200).send("Server is running..."));
 app.listen(port, () => {
   console.log(`Server is running on port: http://localhost:${port}`);
 });
